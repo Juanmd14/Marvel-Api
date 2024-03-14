@@ -1,0 +1,56 @@
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.thumbnail {
+    width: 70%;
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+    margin: 0 auto;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 70%; /* Ancho relativo en porcentaje */
+    height: auto; /* Alto automático */
+    margin: 30px auto; /* Margen vertical automático y margen horizontal */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+    border-radius: 8px; /* Añadimos bordes redondeados a la imagen */
+}
+
+.card .title {
+    font-size: 1.2rem; /* Tamaño de la fuente en píxeles */
+    margin-top: 10px; /* Margen superior en píxeles */
+}
+
+.card .bio {
+    font-size: 0.9rem; /* Tamaño de la fuente en píxeles */
+    margin-top: 10px; /* Margen superior en píxeles */
+    color: #666;
+}
+
+.d-flex{
+    margin: 0 10px 0 0;
+}
